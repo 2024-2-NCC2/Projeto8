@@ -1,111 +1,70 @@
-# FECAP - Fundação de Comércio Álvares Penteado
+# Getting Started with Create React App
 
-<p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
-</p>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Nome do Projeto
+## Available Scripts
 
-## Nome do Grupo
+In the project directory, you can run:
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Fernanda Loura da Silva </a>, <a href="https://www.linkedin.com/in/victorbarq/">Felipe Gonçalves Benedito </a>, <a href="https://www.linkedin.com/in/victorbarq/">Brayan Yamilcar Choque Ceron </a>
+### `npm start`
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Descrição
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Este é um projeto feito em React, se trata-se de um site sobre energia limpa. A página web permite ao usuário inserir alguns dados, consumo de energia e então calcula uma estimativa de quanto de energia solar ele poderia gerar.
-<br><br>
-A página web também mostra um formulário que possui um sistema de autenticação, onde os usuários podem se cadastrar ou realizar o login (caso já possuir um cadastrado autenticado).
-<br><br>
-May the force be with you!
-<br><br>
+### `npm run build`
 
-## 🛠 Estrutura de pastas
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+### `npm run eject`
 
-Há também 4 pastas que seguem da seguinte forma:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-<b>imagens</b>: Imagens do sistema
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-<b>src</b>: Pasta que contém o código fonte.
+## Learn More
 
-## 🛠 Instalação
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-<b>Android:</b>
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+### Code Splitting
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-<b>Windows:</b>
+### Analyzing the Bundle Size
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-```sh
-Coloque código do prompt de comnando se for necessário
-```
+### Making a Progressive Web App
 
-<b>HTML:</b>
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+### Advanced Configuration
 
-## 💻 Configuração para Desenvolvimento
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
+### Deployment
 
-Para abrir este projeto você necessita das seguintes ferramentas:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
--<a href="https://godotengine.org/download">GODOT</a>
+### `npm run build` fails to minify
 
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
-
-## 📋 Licença/License
-
-
-## 🎓 Referências
-
-Aqui estão as referências usadas no projeto.
-
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
