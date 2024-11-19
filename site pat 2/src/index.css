@@ -1,0 +1,307 @@
+/* estilo geral*/
+/* Estilização geral dos parágrafos */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000; /* ou qualquer cor que preferir */
+  margin: 20px 0;
+}
+
+
+body{
+  background-color: rgb(212, 223, 215);
+  height: 100vh;
+  text-align: justify;
+}
+
+.interface{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.btn-contato button{
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 700px;
+  background-color: #69be66;
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover, form .btn-enviar input:hover{
+  box-shadow: 0px 0px 8px #69be66;
+  transform: scale(1.05);
+}
+h2.titulo{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+
+h2.titulo span{
+  color: #69be66;
+}
+
+/* Estilo do cabeçalho */
+header{
+  padding: 40px 4%;
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+}
+
+header a{
+  color: rgb(139, 139, 139);
+  text-decoration: none;
+  display: inline-block;
+  transition: .2s;
+}
+header a:hover{
+  color: black    ;
+  transform: scale(1.05);
+}
+
+header nav ul{
+  list-style: none;
+}
+
+header nav ul li{
+  display: inline;
+  padding: 0 40px;
+}
+
+/* Estilo do topo do site :) */
+section.topo-do-Site{
+  padding: 40px 4%;
+}
+
+section.topo-do-Site .flex{
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.topo-do-Site h1{
+  color: #000000;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.topo-do-Site .txt-top-site h1 span{
+  color: #69be66;
+}
+
+.topo-do-Site .txt-top-site h1 span1{
+  color: #7D7F7D;
+}
+
+.topo-do-Site .txt-top-site p{
+  color: rgb(0, 0, 0);
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.topo-do-Site .img-top-site {
+  position: relative;
+  animation: flutuarVerticalSuave 5s ease-in-out infinite;
+}
+
+@keyframes flutuarVerticalSuave {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+      transform: translateY(-20px); 
+  }
+  100% {
+      transform: translateY(0px); 
+  }
+}
+
+/* THE BIG TREES */
+section.energia{
+  padding: 40px 4%;
+}
+
+section.energia .flex{
+  gap: 50px;
+}
+
+.energia .energia-box{
+  color: black;
+  padding: 100px;
+  border-radius: 20px;
+  margin-top: 40px;
+  transition: .2s;
+}
+
+.energia .energia-box:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.466);
+}
+
+.energia .energia-box h3{
+  font-size: 28px;
+  margin: 10px 0;
+  line-height: 25px;
+}
+
+.energia .energia-box i{
+  font-size: 70px;
+
+}
+.solar-icon {
+  color: #FFD700;
+}
+
+.hidreletrica-icon {
+  color: #007BFF;
+}
+
+.eolica-icon {
+  color: #28A745;
+}
+
+
+/* Estilo do projeto */
+section.projeto{
+  padding: 80px 4%;
+}
+
+section.projeto .flex{
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.projeto .txt-projeto{
+  color: black;
+}
+
+.projeto .txt-projeto h2{
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.projeto .txt-projeto h2 span{
+  display: block;
+}
+
+.projeto .txt-projeto p{
+  margin: 30px;
+  text-align: justify;
+}
+
+.btn-projeto button{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0;
+  background-color: #69be66;
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: .2s;
+}
+
+.objetivos-lista {
+  list-style-type: disc;
+  padding-left: 20px; 
+  font-size: 16px; 
+  color: #000000; 
+}
+
+.objetivos-lista li {
+  margin-bottom: 10px; 
+}
+
+/* Estilo do formulario */
+
+section.formulario{
+  padding: 80px 4%;
+}
+
+form{
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+form input, form textarea{
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 0;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: black;
+  font-size: 18px;
+}
+
+form input::placeholder{
+  color: #69be66;
+}
+
+form textarea{
+  resize: none;
+  max-height: 200px;
+}
+
+form textarea::placeholder{
+  color: #69be66;
+}
+
+form .btn-enviar{
+  margin-top: 10px;
+  text-align: center;
+}
+
+form .btn-enviar input{
+  width: 120px;
+  background-color: #69be66;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/*  ESTILO DO RODAPÉ */
+
+footer{
+  padding: 60px 4%;
+  box-shadow: 0 0 40px 10px #5d665b1d;
+}
+
+footer .flex{
+  justify-content:  space-between;
+}
+
+footer .line-footer p i{
+  color: #51974e;
+  font-size: 20px;
+}
+
+footer .line-footer p a{
+  color: black
+  ;
+}
+
+footer .line-footer{
+  padding: 20px 0;
+}
+
+.borda{
+  border-top: 2px solid black;
+}
